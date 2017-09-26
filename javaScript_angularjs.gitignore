@@ -1,0 +1,46 @@
+.idea
+.svn
+.sonar
+.tags*
+*.iml
+.vscode
+*.log
+*~
+.happypack
+/reports
+/selenium/reports
+
+.tmp
+/admin/banner
+/admin/ci/dist
+/admin/dist
+/admin/public
+/node_modules/grunt-newer/.cache/**/*
+
+/admin-ui/.tmp
+/admin-ui/banner
+/admin-ui/dist
+
+/admin-core/dist
+/admin-core/src/runtimeDependencies/**/*
+/admin-core/test/resources/pdlValidation/generated/**/*
+/admin-core/src/runtimeDependencies/imMigrationGenerated
+
+# whole material-design-icons takes about 80M of space and 100K files.
+# we use only webfonts, so we're not keeping all the stuff in repo
+/bower_components/material-design-icons/**/*.png
+/bower_components/material-design-icons/**/*.svg
+/bower_components/material-design-icons/**/*.css
+/bower_components/material-design-icons/**/*.imageset/Contents.json
+/bower_components/material-design-icons/**/drawable-anydpi*/*.xml
+/bower_components/material-design-icons/sprites
+
+# npm build artifacts
+*.a
+*.a.d
+*.mk
+*.node
+*.node.d
+*.o
+*.o.d
+*.pyc
